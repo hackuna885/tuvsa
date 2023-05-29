@@ -153,7 +153,7 @@ include("assets/inc/nav.inc");
 								       	<div class="container p-0">
 								       		<div class="row h-100">
 								       			<div class="col-6 py-2 wow fadeInUp mx-auto">
-								       				<h3 class="fondoNSlideUno p-5">Empresa líder en transporte público</h3>
+								       				<h4 class="fondoNSlideUno p-5">Empresa líder en transporte público</h4>
 								       			</div>
 								       		</div>
 								       	</div>
