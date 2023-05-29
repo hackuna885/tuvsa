@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 576px) {
+	h3.subTitulo{
+		font-size: 30px;
+	}
+
+	p.tableHorario{
+	height: 65px;
+	}
+	h4.lead2{
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	h3.textoVerde{
+		font-size: 20px;
+	}
+}
+
+$naranja: #FF6500;
+$naranjaDos: #FF6500;
+$azul: #FF6500;
+$azulDos: #FF6500;
+$gris: #F5F5F5;
+$pieCuadro: #EDEEF0;
+$otroGris: #121217;
+
+/*.backVerde{
+	background-color: rgba(163, 215, 131, 0.1);
+}
+*/
+
+a:link{
+	text-decoration: none;
+}
+
+.textoAzul{
+	color: $azul;
+}
+.fondoOtroGris{
+	background-color: $otroGris;
+}
+
+a:hover{
+	color: #9b9b9b !important;
+}
+
+.fondoNSlide{
+	background-color: rgba(62, 217, 192, 0.5);
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	cursor: pointer;
+}
+
+.fondoNSlideUno{
+	background-color: rgba(255, 101, 0, 0.5);
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	text-decoration: none;
+	color: #FFF;
+	cursor: pointer;
+	-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;
+}
+.fondoNSlideUno:hover{
+	background-color: rgba(102, 102, 102, 0.5);
+}
+
+
+.fondoColor{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fondoColorNegro{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grisNav{
+	background-color: rgba(248, 249, 250, 0.95);
+}
+
+.leadMini{
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.leadUno{
+	font-weight: lighter;
+	font-size: 20px;
+}
+.lead2{
+	font-weight: lighter;
+	font-size: 30px;
+}
+.lead3{
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+.cuadroCert{
+	height: 300px;
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.jump:hover {
+	animation: bounce 1s;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.aniTiembla:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+p{
+	font-size:  16px;
+}
+
+.btn-primary{
+	border: $naranja;
+	background-color: $naranja;
+	color: #FFF !important; 
+}
+.btn-primary:hover{
+	border: $naranjaDos;
+	background-color: $naranjaDos;
+	color: #FFF !important
+}
+
+.fondoVerde{
+	background-color: $naranja;
+}
+
+.fondoGris{
+	background-color: $gris;
+}
+
+.fondoAzul{
+	background-color: $azul;
+}
+
+.textoVerde{
+	color: $naranja;
+}
+
+.textoBlanco{
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.textoVerde{
+	transition: 0.3s;
+}
+.textoVerde:hover{
+	color: $naranjaDos;
+}
+
+.navIcon a:link, i{
+	text-decoration: none;
+	color: $azul;
+}
+
+
+.icono{
+	font-size: 30px;
+	color: $naranja;
+}
+
+.anima{
+	transition: 0.3s;
+}
+.anima:hover{
+	color: $naranja;
+}
+
+.eleSelect{
+	transition: 0.2s;
+}
+
+.eleSelect:hover{
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	background-color: $naranja;
+}
+.animaFondo{
+	transition: 0.3s;
+}
+.animaFondo:hover{
+	background-color: #F0FFE4;
+}
+
+.iconFat{
+	font-size: 100px;
+	
+}
+.iconFat:hover{
+	color: #9b9b9b;	
+}
+
+.articuloGris{
+	background-color: $gris;
+}
+
+.textoVerde{
+	color: $naranja;
+}
+
+.vl{
+	border-left: 2px solid $naranja;
+	
+}
+
+.tl{
+	border-top: 2px solid $naranja;
+	
+}
+
+.subTitulo{
+	font-size: 40px;
+}
+
+.tablaChica{
+	width: 40%;
+}
+
+.tablaGrande{
+	width: 60%;
+}
+
+
+.pie{
+	background-color: $pieCuadro;
+	background-image: url(../img/overlay.png), url(../img/footer.svg);
+    background-size: 128px 128px,	100% 100%;
+}
+
+.parallax {
+  
+  background-image: url('../img/spiration-light.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 400px 400px,	100% 100%;
+}
+
+.fondoImgEmpre{
+  background: url(../img/backVentas.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoRespo{
+  background: url(../img/backRespo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoForta{
+  background: url(../img/backForta.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoCapa{
+  background: url(../img/backCapa.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoTi{
+  background: url(../img/backTi.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoSeguridadTi{
+  background: url(../img/SecureTi.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fondoNRespo{
+  background: url(../img/backNRespo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoNoticias{
+  background: url(../img/backNoticias.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.soloGris{
+  background: url(../img/soloGris.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoLineas{
+	background: url(../img/fondoRespoLineas.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoLineGris{
+	background: url(../img/fondoRespoLineGris.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.cardX{
+	min-height: 250px;
+}
+.fondoMundo{
+	background: url(../img/somosTuvsa.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fondoOptUno{
+	background: url(../img/conductor.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fondoOpt{
+	background: url(../img/optEmpre.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fondoTiSoporte{
+	background: url(../img/backTi_Soporte.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fondoTiX{
+	background: url(../img/tiCorsec.svg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.imgISO{
+	width: 100px;
+	cursor: pointer;
+}
+
+.imgISOD{
+	width: 87px;
+	cursor: pointer;
+}
+
+
+.imgISO2{
+	width: 150px;
+	cursor: pointer;
+}
+
+.imgISOD2{
+	width: 137px;
+	cursor: pointer;
+}
+
+.cajaImg{
+	margin-bottom: 10px;
+	height: 100px;
+}
+.cajaImg2{
+	margin-bottom: 5px;
+	height: 150px;
+}
+
+.iconCert{
+	width: 150px;
+}
+
+.iconCert2{
+	width: 180px;
+}
+
+.iconCert3{
+	width: 130px;
+}
+
+
+.tableHorario{
+	margin: 0px 20px;
+	height: 50px;
+}
+
+
+/*
+
+
+body{
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+*/
+
+
+/* estilos de prueba */
+/*	.container {
+	  border: 1px solid red; }
+
+	.row {
+	  border: 1px solid blue; }
+
+	.row > * {
+	  border: 1px solid green; }*/
+
+/*# sourceMappingURL=estilos.css.map */
